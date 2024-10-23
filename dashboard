@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - CarbonX</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <section id="SideMenu">
+            <div id="Sidenav">
+                <button class="closebtn" onclick="closeNav()">&times;</button>
+                <a href="index.html">Home</a>
+                <a href="emission.html">Emission</a>
+                <a href="carbon-neutrality.html">Carbon Neutrality</a>
+                <a href="dashboard.html">Dashboard</a>
+                <a href="News.html">News</a>
+            </div>
+        </section>
+        <div class="container">
+            <div class="logo">
+                <img src="images\logo.png" alt="[CarbonX] Logo">
+            </div>
+            <div class="topnav">
+            <nav>
+                <ul>
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="emission.html">Emission Estimation</a></li>
+                    <li><a href="carbon-neutrality.html">Carbon Neutrality</a></li>
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="News.html">News</a></li>
+                </ul>
+            </nav>
+            </div>
+            <div class="auth-buttons" id="auth">
+                <button class="btn" id="loginBtn"><a href="login.html">Login</a></button>
+                <button class="btn secondary" id="registerBtn"><a href="register.html">Register</a></button>
+            </div>
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        </div>
+    </header>
+    <main>
+        <section>
+            <h1>User Dashboard</h1>
+            <p>Welcome, User! Here's your latest project.</p>
+            <!-- Dashboard content here -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 CarbonX. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
